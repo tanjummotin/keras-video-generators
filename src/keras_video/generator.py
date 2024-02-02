@@ -15,7 +15,7 @@ from typing import Iterable, Optional
 
 import cv2 as cv
 import numpy as np
-from tensorflow.keras.preprocessing.image import (ImageDataGenerator,
+from tensorflow.keras.preprocessing import (ImageDataGenerator,
                                                   img_to_array)
 from tensorflow.keras.utils import Sequence
 
